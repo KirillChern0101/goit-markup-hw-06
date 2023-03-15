@@ -520,6 +520,11 @@ img {
 	display: flex;
 }
 .input-footer {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.04em;
+
 	display: inline-block;
 
 	width: 264px;
@@ -533,7 +538,7 @@ img {
 .input-footer:-webkit-autofill,
 .input-footer:-webkit-autofill:hover,
 .input-footer:-webkit-autofill:focus {
-	border: 1px solid var(--accent-text-color-two);
+	border: 1px solid var(--accent-text-background-color);
 	-webkit-text-fill-color: var(--accent-text-background-color);
 	transition: background-color 5000s ease-in-out 0s;
 }
