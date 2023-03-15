@@ -509,6 +509,9 @@ img {
 .footer-section-social-img:is(:hover, :focus) {
 	background: var(--hover-focus-icon-footer);
 }
+.footer-form {
+	display: flex;
+}
 .foter-subject-two {
 	font-weight: 500;
 	font-size: 16px;
@@ -525,7 +528,7 @@ img {
 	line-height: 2;
 	letter-spacing: 0.04em;
 
-	display: inline-block;
+	display: flex;
 
 	width: 264px;
 	height: 40px;
@@ -550,7 +553,7 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 
-	display: inline-block;
+	display: flex;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
