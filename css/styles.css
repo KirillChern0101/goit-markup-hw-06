@@ -537,6 +537,7 @@ img {
 	color: var(--accent-text-background-color);
 	border-radius: 4px;
 	padding-left: 16px;
+	outline: transparent;
 }
 .input-footer:-webkit-autofill,
 .input-footer:-webkit-autofill:hover,
