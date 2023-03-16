@@ -412,6 +412,8 @@ textarea {
 .button-send:is(:hover, :focus) {
 	background: var(--button-portfolio-hover-color);
 }
+/* Form */
+
 /* Modal */
 
 /* Hero-Section-Style */
