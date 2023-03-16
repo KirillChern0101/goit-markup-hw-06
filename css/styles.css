@@ -257,6 +257,75 @@ img {
 	background: var(--button-portfolio-hover-color);
 	fill: currentColor;
 }
+.modal-subject {
+	display: flex;
+	justify-content: center;
+	margin-top: 72px;
+	margin-bottom: 34px;
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--accent-text-color);
+}
+.form-modal {
+	margin-left: 24px;
+}
+.label-modal {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.7;
+	letter-spacing: 0.04em;
+
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 8px;
+}
+.inpute-name {
+	margin-bottom: 4px;
+	display: inline-flex;
+}
+.input-modal {
+	max-width: 360px;
+	height: 40px;
+	padding-left: 38px;
+
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+}
+.button-send {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+
+	min-width: 169px;
+	height: 56px;
+	margin: 0 auto 0 auto;
+	padding: 16px 32px;
+
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	margin-top: 408px;
+	cursor: pointer;
+
+	color: var(--accent-text-background-color);
+	background: var(--accent-text-color-two);
+	border: none;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+
+	transition-property: background;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-send:is(:hover, :focus) {
+	background: var(--button-portfolio-hover-color);
+}
 /* Modal */
 
 /* Hero-Section-Style */
