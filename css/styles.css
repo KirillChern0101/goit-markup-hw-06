@@ -311,7 +311,6 @@ form {
 }
 .label-modal input:focus,
 textarea:focus {
-	outline: none;
 	border: 1px solid var(--button-portfolio-hover-color);
 }
 .label-modal input:focus + .input-span-icon > .input-icon {
@@ -368,8 +367,8 @@ textarea {
 
 	display: inline-flex;
 	align-items: center;
-	text-align: center;
 	justify-content: center;
+	cursor: pointer;
 
 	width: 16px;
 	height: 16px;
