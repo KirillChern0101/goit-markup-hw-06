@@ -312,6 +312,8 @@ form {
 .label-modal input:focus,
 textarea:focus {
 	border: 1px solid var(--button-portfolio-hover-color);
+
+	outline: none;
 }
 .label-modal input:focus + .input-span-icon > .input-icon {
 	fill: var(--button-portfolio-hover-color);
